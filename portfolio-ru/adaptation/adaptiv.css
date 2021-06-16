@@ -1,0 +1,213 @@
+@media (max-width: 1190px) {
+    .skills__info {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1090px) {
+    .text {
+        font-size: 22px;
+    }
+    .info__text {
+        font-size: 14px;
+    }
+    .info__text-two {
+        font-size: 14px;
+    }
+    .info__text-three {
+        font-size: 14px;
+    }
+    .portfolio__img {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 1010px) {
+    .portfolio__img-two {
+        max-width: 190px;
+        max-height: 190px;
+    }
+    .portfolio__img-three {
+        max-width: 190px;
+        max-height: 190px;
+    }
+}
+@media (max-width: 910px) {
+    .info__img-author {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .info__me-info-about {
+        max-width: 300px;
+    }
+    .info__about {
+        font-size: 22px;
+    }
+    .info__me-text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 844px) {
+    .portfolio__img {
+        max-width: 190px;
+        max-height: 190px;
+    }
+    .portfolio__img-two {
+        max-width: 190px;
+        max-height: 190px;
+    }
+    .portfolio__img-three {
+        max-width: 190px;
+        max-height: 190px;
+    }
+}
+@media (max-width: 828px) {
+    .portfolio__project-info {
+        max-width: 500px;
+    }
+}
+@media (max-width: 690px) {
+    .info__me-author {
+        font-size: 26px;
+    }
+    .info__me-proffesion {
+        font-size: 18px;
+    }
+    .info__img-author {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .info__me-info-about {
+        max-width: 200px;
+    }
+    .info__about {
+        font-size: 17px;
+    }
+    .info__me-text {
+        font-size: 12px;
+    }
+    .skills__message-me {
+        font-size: 16px;
+    }
+    .skills__message-info {
+        padding: 30px;
+    }
+}
+@media (max-width: 660px) {
+    .header__nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts__nav {
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 690px) {
+    .portfolio {
+        flex-wrap: wrap;
+        margin: 0px 15px;
+    }
+}
+@media (max-width: 600px) {
+    .text {
+        font-size: 18px;
+    }
+    .info__text {
+        font-size: 11px;
+    }
+    .info__text-two {
+        font-size: 11px;
+    }
+    .info__text-three {
+        font-size: 11px;
+    }
+    .skills__info-img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+    .skills__info-progress-one {
+        max-width: 120px;
+    }
+    .skills__info-progress-two {
+        max-width: 120px;
+    }
+    .skills__info-progress-three {
+        max-width: 120px;
+    }
+    .skills__info-progress-four {
+        max-width: 120px;
+    }
+    .skills__info-progress-five {
+        max-width: 120px;
+    }
+    .skills__zero {
+        font-size: 13px;
+    }
+}
+@media (max-width: 530px) {
+    .portfolio__project-info {
+        max-width: 360px;
+    }
+    .portfolio__project-text {
+        font-size: 11px;
+    }
+    .portfolio__url {
+        font-size: 13px;
+    }
+}
+@media (max-width: 490px) {
+    .skills__info-progress-setting {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts__nav-img {
+        max-width: 34px;
+    }
+}
+@media (max-width: 480px) {
+    .info__me {
+        flex-wrap: wrap;
+    }
+    .info__me-info {
+        flex-wrap: wrap;
+    }
+    .info__me-text::after {
+        display: none;
+    }
+    .info__me-info-about {
+        max-width: 380px;
+    }
+    .contacts__text {
+        font-size: 36px;
+    }
+    .portfolio__h1 {
+        font-size: 36px;
+    }
+    .skills__me {
+        font-size: 36px;
+    }
+}
+@media (max-width: 400px) {
+    .portfolio__project-info {
+        max-width: 280px;
+    }
+    .contacts__text-two {
+        font-size: 13px;
+    }
+    .contacts__message {
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px) {
+    .portfolio__project-info {
+        max-width: 200px;
+    }
+    .portfolio__project-text {
+        font-size: 8px;
+    }
+    .portfolio__url {
+        font-size: 10px;
+    }
+    .contacts__nav {
+        padding-bottom: 6px;
+    }
+}

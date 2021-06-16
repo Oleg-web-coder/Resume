@@ -1,0 +1,403 @@
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  -webkit-animation: opacity 1.4s ease;
+          animation: opacity 1.4s ease;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+/*-------HEADER-------*/
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.header .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #c4c4c4;
+}
+.header .header__nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #828282;
+  border: 2px solid rgba(255, 0, 0, 0);
+  border-radius: 14px;
+  margin: 0px 10px;
+  padding: 6px 24px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.header .header__nav-link:hover {
+  border: 2px solid #cc0303;
+  color: #cc0303;
+}
+.header .header__language {
+  text-transform: uppercase;
+}
+.header .header__language-eng {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.header .header__language-eng:hover {
+  color: blue;
+}
+.header .header__language-ru {
+  font-size: 13px;
+  text-decoration: none;
+  color: #02c702;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.header .header__language-ru:hover {
+  color: blue;
+}
+
+/*-------HEADER-------*/
+/*--------INFO--------*/
+.info {
+  font-family: "Poppins", sans-serif;
+  padding-top: 15px;
+}
+.info__me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.info__me-author {
+  margin: 0;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 130%;
+}
+.info__me-proffesion {
+  margin: 0;
+  font-size: 24px;
+  line-height: 180%;
+}
+.info .info__me-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.info__img-author {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+}
+.info__me-info-about {
+  text-align: center;
+  width: 470px;
+  background-color: #c4c4c457;
+  border-radius: 32px;
+}
+.info__about {
+  margin: 0;
+  font-size: 26px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.info__me-text {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-style: italic;
+}
+.info__me-text::after,
+.info__me-text ::before {
+  content: "";
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.info__me-text::after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #c4c4c457;
+  border-width: 18px;
+  top: 68%;
+  margin-top: -18px;
+}
+.info__me-text::before {
+  border-color: rgba(125, 145, 133, 0);
+  border-right-color: #7d9185;
+  border-width: 19px;
+  top: 50%;
+  margin-top: -19px;
+}
+
+/*--------INFO--------*/
+/*--------SKILLS--------*/
+.skills {
+  margin-top: 25px;
+  padding-bottom: 25px;
+  background-color: #c4c4c448;
+}
+.skills__me {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 54px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.skills__info {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.skills__info-progress {
+  text-align: center;
+}
+.skills__info-progress-one, .skills__info-progress-two, .skills__info-progress-three, .skills__info-progress-four, .skills__info-progress-five {
+  height: 36px;
+}
+.skills__info-img {
+  height: 100px;
+  width: 100px;
+}
+.skills .skills__info-progress {
+  margin: 15px 20px;
+}
+.skills .skills__info-progress-setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skills__zero {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  line-height: 70%;
+  font-size: 18px;
+}
+.skills .procent {
+  color: #00c200;
+}
+
+.skills__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 44px;
+}
+.skills__message-info {
+  border: 6px solid rgba(0, 0, 0, 0.356);
+  padding: 50px;
+  border-radius: 30px;
+}
+.skills__message-me {
+  margin: 0;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+/*--------SKILLS--------*/
+/*--------PORTFOLIO--------*/
+.portfolio {
+  font-family: "Montserrat", sans-serif;
+}
+.portfolio__h1 {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 54px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.portfolio__project-info {
+  width: 800px;
+  text-align: center;
+  border-radius: 24px;
+  border: 6px solid #c4c4c400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.portfolio__project-info:hover {
+  border: 6px solid #c4c4c4;
+}
+.portfolio__project-text {
+  font-style: italic;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.portfolio__img {
+  text-align: center;
+}
+.portfolio__url {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: black;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.portfolio__url:hover {
+  border: 2px solid #cc0303;
+  color: #cc0303;
+}
+.portfolio .two {
+  margin: 50px 0px;
+}
+
+/*--------PORTFOLIO--------*/
+/*--------CONTACTS--------*/
+.contacts {
+  margin-top: 30px;
+  background-color: #c4c4c457;
+  text-align: center;
+}
+.contacts__text {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 54px;
+  letter-spacing: 4px;
+}
+.contacts__text-two {
+  margin: 0;
+  padding: 12px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+}
+.contacts__message {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: black;
+  padding: 6px 36px;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.contacts__message:hover {
+  color: black;
+  background-color: #fff;
+  border: 2px solid black;
+}
+.contacts__nav {
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+.contacts__nav-link {
+  border: 2px solid rgba(255, 0, 0, 0);
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.contacts__nav-link:hover {
+  border: 2px solid rgba(255, 0, 0, 0.829);
+  -webkit-box-shadow: 0px 0px 12px 4px red;
+          box-shadow: 0px 0px 12px 4px red;
+}
+.contacts__nav-img {
+  border: 7px solid rgba(0, 128, 0, 0);
+  border-radius: 50%;
+  width: 50px;
+  margin: 0px 2px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.contacts__nav-img:hover {
+  border: 1px solid rgba(0, 128, 0, 0);
+}
+
+/*--------CONTACTS--------*/
+/*--------FOOTER--------*/
+.footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.747);
+  color: #fff;
+}
+.footer__author {
+  margin: 0;
+  font-size: 12px;
+  padding: 6px 0px;
+  text-align: center;
+}
+
+/*----------FONTS------------
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Poppins', sans-serif;
+---------------------------*/
